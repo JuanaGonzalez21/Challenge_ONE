@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura-Encriptador</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/logo.css">
+    <link rel="stylesheet" href="./css/inputText.css">
+    <link rel="stylesheet" href="./css/textInformation.css">
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/showMessage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="containerPrincipal">
+        <section class="logo">
+            <img src="./img/Logo (1).png" alt="Logo Alura">
+        </section>
+        <div class="container">
+            <section class="textInput">
+                <textarea class="inputText" placeholder="Ingrese el texto aquí" spellcheck="false"
+                    data-input></textarea>
+            </section>
+
+            <section class="textInformation">
+                <img src="./img/img.svg" alt="logo de exclamación">
+                <p class="info">Solo letras minúsculas y sin acentos</p>
+            </section>
+
+            <section class="areaButton">
+                <button class="primary" data-btn>Encriptar</button>
+                <button class="secundary" data-desc>Desencriptar</button>
+            </section>
+        </div>
+        <div class="showMessage">
+            <div class="mostrarMensaje">
+                <section class="message" data-section-uno>
+                <textarea class="pMesaje" data-section-mensaje></textarea>
+                <section>
+                    <button class="copy" data-copy> Copiar </button>
+                    <button class="clear" data-clear> Limpiar </button>
+                </section>
+            </section>
+            </div>
+            
+
+            <section class="noMessage"data-section-nomensaje>
+                <img src="./img/Muñeco.png" alt="muñeco" class="imgMuñeco">
+                <h2>Ningún mensaje fue encontrado</h2>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+
+            </section>
+
+
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

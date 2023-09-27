@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #F3F5FC;
+
+}
+
+
+/* View Desktop */
+
+@media (min-width: 900px) {
+    .containerPrincipal{
+        display: flex;
+        align-items: self-start;
+        height: 80vh;
+    }
+
+    .container{
+        
+        min-width: 50%;
+        height: 100%;
+    }
+
+    
+}
+
+
+@media (min-width: 1200px) {
+    .container{
+        margin: 0;
+        min-width: 60%;
+        margin-top:100px ;
+    }
+    .showMessage{
+        height: 100% !important;
+      }
+
+
+
+}

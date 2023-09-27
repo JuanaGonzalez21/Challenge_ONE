@@ -1,0 +1,110 @@
+.showMessage {
+    background-color: #FFFFFF;
+    height: 90%;
+    margin: 60px 30px;
+    text-align: center;
+    min-height: 100px;
+    padding: 30px 0;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.noMessage {
+    padding: 20px;
+    margin-top: calc(30% - 10px);
+    display: block;
+}
+
+.noMessage .imgMuñeco {
+    width: 280px;
+}
+
+.noMessage h2 {
+    padding: 10px 30px;
+}
+
+.pMesaje {
+    width: calc(100% - 10px);
+    margin-top: calc(15% - 10px) ;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    outline: none;
+    border: none;
+    resize: none;
+    height: 300px;
+}
+
+
+.showMessage .copy,
+.clear {
+    color: #0A3871;
+    background-color: #FFFFFF;
+    width: 90%;
+    padding: 23px;
+    font-size: 16px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    pointer-events: visible;
+}
+
+.showMessage .copy{
+    margin-top: 140px;
+}
+
+.showMessage .clear{
+    margin-top: 10px;
+}
+
+.noMessage .clear {
+    margin: 20px;
+}
+
+
+/* Mostrando el mensaje  */
+
+.message {
+    display: none;
+}
+
+.messageUno {
+    display: block;
+}
+
+.noMessageShow {
+    display: none;
+}
+
+.showMesge{
+    display: block;
+}
+
+
+@media (min-width: 899px) {
+
+    .showMessage {
+        width: calc(100% - 0px);
+        padding: 10px;
+    }
+}
+
+
+
+@media (max-width: 900px) {
+    .noMessage {
+        padding: 20px;
+        margin-top: 0;
+    }
+
+    .pMesaje {
+        margin: 0;
+        width: calc(100% - 80px);
+    }
+
+    .showMessage img {
+        display: none;
+    }
+
+
+
+}
